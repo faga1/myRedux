@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "test": "node --loader ts-node/esm ./milk.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "typescript": "^4.6.4"
+    }
+}
