@@ -1,0 +1,32 @@
+{
+  "name": "myRedux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile":"tsc",
+    "build": "tsc & rollup --config rollup.config.js",
+    "test": "jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/faga/xxx.git"
+  },
+  "author": "faga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faga/xxx/issues"
+  },
+  "homepage": "https://github.com/faga/xxx#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3",
+    "ts-node": "^10.7.0",
+    "rollup": "^2.70.1",
+    "jest": "^27.5.1",
+    "@types/jest": "^27.4.1"
+  },
+  "files": [
+    "./bundle.js"
+  ],
+  "type": "module"
+}
